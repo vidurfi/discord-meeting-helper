@@ -16,3 +16,7 @@ You can clear the agenda with: **!clearagenda**
 You can delete topics from the agenda with: **!deletetopic** (you will be prompted after sending this command)
 
 You can see the full agenda (gitlab boards aswell) with: **!topic**
+
+#### PS
+
+This bot was custom made for our needs, so you will probably have to change some code within it to work correctly. Mainly in the file prioritylevels.py, you can see that we used the labels "In Verification" and "In Progress", which were the names of labels/boards in our GitLab project.
